@@ -13,18 +13,9 @@
     <div v-if="weatherResult"
          class="flex flex-col justify-center items-center weather-card animate__animated animate__flipInX">
       <h1 class="text-center text-3xl mb-4">{{weatherResult.address}}</h1>
-      <img :src="'./src/assets/images/' + weatherResult.currentConditions.icon + '.png'" :alt="weatherResult.currentConditions.icon"/>
-<!--      {{weatherResult.timezone}}-->
-<!--      {{weatherResult.tzoffset}}-->
+      <img :src="'/src/assets/images/' + weatherResult.currentConditions.icon + '.png'" :alt="weatherResult.currentConditions.icon"/>
       <p class="mt-4 text-lg text-center">Timezone: {{weatherResult.timezone}}</p>
-<!--      {{weatherResult.currentConditions.conditions}}-->
-<!--      {{weatherResult.currentConditions.temp}}-->
-<!--      {{weatherResult.currentConditions.humidity}}-->
-<!--      {{weatherResult.currentConditions.windspeed}}-->
-<!--      {{weatherResult.currentConditions.cloudcover}}-->
-<!--      {{weatherResult.currentConditions.visibility}}-->
-<!--      {{weatherResult.currentConditions.pressure}}-->
-<!--      {{weatherResult.currentConditions.solarenergy}}-->
+
     </div>
 
     <div v-if="weatherResult" class="weather-card mt-4 flex justify-around   animate__animated animate__flipInX">

@@ -8,7 +8,7 @@ Live demo: https://vue2-weather.vercel.app
 
 ---
 
-![img]()
+![img](https://github.com/lnquy065/vue2-weather/blob/main/readme/screenshot.png?raw=true)
 
 ## License
 
