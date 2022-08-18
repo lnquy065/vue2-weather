@@ -1,35 +1,15 @@
-# vue2-project
+# Vue2 x Weather
 
-This template should help get you started developing with Vue 3 in Vite.
+A weather project for the first touch in Vue2 😅.
 
-## Recommended IDE Setup
+Included some libraries: Tailwindcss, Postcss, Animate.style, Vite and Vercel for deploying.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Live demo: https://vue2-weather.vercel.app
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![img]()
 
-## Project Setup
+## License
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+MIT © [lnquy065](https://github.com/lnquy065)
